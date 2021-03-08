@@ -61,6 +61,11 @@ body {
     color: white;
     font-style: italic;
     font-size: 20px;
+    display: flex;
+    width: 100%;
+}
+#one{
+    width: 25%;
 }
 .happyhour {
     padding-top: 41px;
@@ -78,19 +83,25 @@ body {
 #breakfast {
     background-image: url("photos/breakfast.jpg");
     background-size: cover;
-    padding: 100px;
+    padding: 2px;
+    width: 25%;
+    background-repeat: no-repeat;
 }
 
 #lunch {
     background-image: url("photos/lunch.jpg");
     background-size: cover;
     padding: 100px;
+    width: 25%;
+    background-repeat: no-repeat;
 }
 
 #dinner {
     background-image: url("photos/dinner.jpg");
     background-size: cover;
     padding: 100px;
+    width: 25%;
+    background-repeat: no-repeat;
 }
 
 #dinner:hover,
