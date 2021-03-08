@@ -1,0 +1,266 @@
+body {
+    margin: auto;
+}
+/*first section*/
+.first-section {
+    background-image: url("photos/landing.jpg");
+    background-size: cover;
+    overflow: hidden;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.menulines {
+    z-index: 2;
+    padding-left: 80px;
+}
+
+.menulines .btn {
+    color: white;
+    background-color: transparent;
+    font-size: 30px;
+    padding: 0px;
+}
+
+.fa {
+    /*horizontal lines icon*/
+    width: 25px;
+    height: 25px;
+}
+
+
+.fade.in {
+    opacity: 0.8;
+}
+
+.modal-body,
+.modal-title {
+    font-size: 20px;
+}
+
+.modal-footer .btn {
+    font-size: 20px;
+    color: black;
+}
+
+.logo {
+    padding: 150px;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.boldSlogan {
+    font-weight: bold;
+}
+/*main section*/
+.main {
+    margin-left: -10%;
+    margin-right: -10%;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+.happyhour {
+    padding-top: 41px;
+    padding-bottom: 45px;
+    background-color: lightgrey;
+    margin-bottom: 0;
+}
+
+.partytime {
+    padding-top: 41px;
+    padding-bottom: 45px;
+    background-color: #F15A29;
+}
+
+#breakfast {
+    background-image: url("photos/breakfast.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+#lunch {
+    background-image: url("photos/lunch.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+#dinner {
+    background-image: url("photos/dinner.jpg");
+    background-size: cover;
+    padding: 100px;
+}
+
+#dinner:hover,
+#lunch:hover,
+#breakfast:hover {
+    color: #F15A29;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+/*meals section*/
+
+
+
+
+/*services*/
+.services-section{
+    margin-left: -10%;
+    margin-right: -10%;
+    text-align: center;
+    background-image: url("photos/foodsBg.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+.nav-tabs {
+    background-color: lightgrey;
+    font-size: 16px;
+}
+.nav-tabs>.active {
+    background-color: white;
+    border-bottom: 0;
+}
+a {
+    color: black;
+}
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
+.nav-tabs>li.active>a:focus {
+    color: #f15a19;
+  }
+  .item {
+    float: left;
+    margin: 10px;
+}
+.carousel-control {
+    opacity: 1;
+    color: #f15a19;
+}
+
+  /*customers*/
+  .customers-section>.row {
+    width: 90%;
+    margin: 50px auto;
+    border: 2px solid #ddd;
+    box-shadow: 0px 0px 5px lightgrey;
+    padding: 40px;
+}
+.customers>h4 {
+    color: #f15a29;
+    font-weight: bold;
+}
+.customers {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+.slide>.item>img {
+    margin: auto;
+}
+.slide .item.left.active {
+    transform: translateX(-33%);
+}
+
+.slide .item.right.active {
+    transform: translateX(33%);
+}
+
+.slide .item.next {
+    transform: translateX(33%)
+}
+
+.slide .item.prev {
+    transform: translateX(-33%)
+}
+
+.slide .item.right,
+.slide .item.left {
+    transform: translateX(0);
+}
+.about {
+    padding: 20px;
+    text-align: center;
+    border-left: 2px solid #ddd;
+}
+
+.about>h4 {
+    color: #f15a29;
+    font-weight: bold;
+}
+.slide-indicators {
+    display: none;
+}
+#testimonials .slide {
+    padding: 0px;
+}
+  /*subscriptions*/
+  .subscriptions {
+    text-align: center;
+    background-image: url("photos/subscribe.jpg");
+    background-size: cover;
+    overflow: hidden;
+    color: white;
+    font-size: 20px;
+    margin-left: -10%;
+    margin-right: -10%;
+    padding: 80px;
+}
+input[type=button] {
+    background-color: #f15a29;
+    color: white;
+}
+.sub-form {
+    width: 50%;
+    margin: auto;
+}
+.subscriptions p {
+    font-size: 40px;
+}
+  
+/*social media and footer*/
+  .footer>img {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+
+  .footer {
+    width: 30%;
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 35px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.social-media{
+    background-color: #f15a29;
+    margin-left: -10%;
+    margin-right: -10%;
+}
+.footer p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer h4 {
+    font-size: 30px;
+}
+#copyright {
+    font-size: 15px;
+}
+.footer .fa {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.fa {
+    /*horizontal lines icon*/
+    width: 25px;
+    height: 25px;
+}
