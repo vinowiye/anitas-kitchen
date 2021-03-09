@@ -7,178 +7,117 @@
         <link rel="stylesheet" type="text/css" href="index.css">    
     </head>
     <body>
-        <div class="first-section">
-            <div class="menulines">
-                <button type="button" class="btn">
-                    <i class="fa fa-bars fa-lg" aria-hidden="true" ></i>
-                </button>
-                <div id="menuModal" class="modal fade" role="dialog">
-                    <div class="modal-content">
-                        <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="modal-title">Hamburger Menu</h4>
-                        <div class="modal-body">
-                            <ul>
-                                <li><a href="#">Contacts</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Menu</a></li>
-                            </ul>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="logo">
-                <img src="photos/logoBig.png" alt="Logo">
-                <p>We Provide The Best Food <br /> At The <span class="boldSlogan">Right Price</span></p>
-            </div>
-        </div>
-
-
-        <!--main section-->
         <div class="main">
-            <div id="one">
-                <p class="happyhour">Happy Hour </p>
-                <p class="partytime">Party Time</p>
-            </div>
-
-            <div id="breakfast">Breakfast</div>
-            <div id="lunch">Lunch</div>
-            <div id="dinner">Dinner</div>
-
-        </div>
-        <div class="meals-section">
-            <img src="photos/fastFood1.jpg" alt="Photo of Fast Food"><br/>
-            <img src="photos/fastFood2.jpg" alt="Photo of Fast Food">
-            <div class="fastFood">
-                <h3>Fast Food</h3>
-                <h4>You'll love our delicious food.</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <button type="button" name="button">View Gallery &rarr;</button>
-            </div>
-
-            <div class="drinksInfoRow">
-                <div class="drinksInfo">
-
-                    <h3>Drinks</h3>
-                    <h4>We also produce delicious drinks.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <button type="button" name="button">View Gallery</button>
+            <div class="front">
+                <div id="logo">
+                    <img src="photos/logoBig.png" alt="big">
                 </div>
-
-                <div class="drinksInfoPhotos">
-                    <img src="photos/drink1.jpg" alt="Photo of Drink" class="drinkInfoPhoto1">
-                    <img src="photos/drink2.jpg" alt="Photo of Drink" class="drinksInfoPhoto2">
+                <div class="text">
+                    <h3>We Provide The Best Food</h3>
+                    <h3>At The <strong>Right Price</strong></h3>
                 </div>
             </div>
-        </div>
-
-
-        <!--sercvices section-->
-        <div class="services-section">
-            <ul class="nav nav-tabs nav-justified">
-                <li class="active"><a data-toggle="tab" href="#fastFood">Fast Food</a></li>
-                <li><a data-toggle="tab" href="#drinks">Drinks</a></li>
-                <li><a data-toggle="tab" href="#chicken">Chicken</a></li>
-                <li><a data-toggle="tab" href="#rice">Rice</a></li>
-            </ul>
-            <div class="item active">
-                <img src="photos/chickenBurger.jpg" alt="Chicken Burger">
-            </div>
-            <div class="item active ">
-                <img src="photos/beefBurger.jpg" alt="Beef Burger">
-            </div>
-            <div class="item active">
-                <img src="photos/chickenPizza.jpg" alt="Chicken Pizza">
-            </div>
-            <a class="left carousel-control" href="#fastFoodCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#fastFoodCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-                <span class="sr-only">Next</span>
-            </a>  
-        </div>
-          
-
-
-
-        <!--customer section-->
-        <div class="customers-section">
-            <div class="row">
-                <div class="customers">
-                    <h4>Our happy customers</h4>
-                    <div id="testimonials" class="carousel" data-ride="carousel">
-                        
-                        <ol class="slide-indicators">
-                            <li data-target="#testimonials" data-slide-to="0" class="active"></li>
-                            <li data-target="#testimonials" data-slide-to="1"></li>
-                            <li data-target="#testimonials" data-slide-to="2"></li>
-                        </ol>
-
-                        <div class="slide">
-                            <div class="item active">
-                                <h5>Centy Auma</h5>
-                                <p>Great food! Menu is awesome, their foods are not only great but also have great pricing. I'll highly recommend them.</p>
-                                <img src="photos/p1.png" alt="First Customer">
-                            </div>
-                            <div class="item ">
-                                <h5>Owiye vincent</h5>
-                                <p>Great food! Menu is awesome, their foods are not only great but also have great pricing. I'll highly recommend them.</p>
-                                <img src="photos/p2.png" alt="Second Customer">
-                            </div>
-                            <div class="item ">
-                                <h5>Ernest Okolla</h5>
-                                <p>Great food! Menu is awesome, their foods are not only great but also have great pricing. I'll highly recommend them.</p>
-                                <img src="photos/p3.png" alt=" Third Customer">
-                            </div>
-                        </div>
-
-                        <a class="left" href="#testimonials" data-slide="prev">
-                            <span class=""></span>
-                            <span class="">Previous</span>
-                        </a>
-                        <a class="right" href="#testimonials" data-slide="next">
-                            <span class=""></span>
-                            <span class="">Next</span>
-                        </a>
+                <div id="range">
+                    <div id="class">
+                    <p id="htime">Happy Hour</p>
+                    <p class="ptime">Party Time</p>
                     </div>
-                </div>
-
-                <div class="about">
-                    <h4>About Menu</h4>
-                    <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quid nos trudexer ci ration ullamcoroer suscipit lob ortis nisl it aliquip ex ea commodo cinse what. Duisau tem vel run irriure dolor in.</p>
-
+                    <div id="one">Breakfast</div>
+                    <div id="two">Lunch</div>
+                    <div id="three">Dinner</div>
                 </div>
             </div>
         </div>
-
-        <!--subscription section-->
-        <div class="subscriptions">
-            <p> Get our daily food items delivered to your email</p>
-            <div class="sub-form">
-                <form>
-                    <div class="rows">
-                            <input type="email" placeholder="Enter your email">
-                            <input type="button" value="Subscribe now">
+        <div id="main-meal">
+            <div class="food-image">
+                <ul>
+                    <li><img src="photos/fastFood1.jpg" alt="fast"></li>
+                    <li><img src="photos/fastFood2.jpg" alt="food"></li>
+                </ul>
+            </div>
+            <div class="main-meal">
+                <h2>Fast Food</h2>
+                <h3>You'll love our delicious fast food</h3>
+                <p>Lorem ipsum dolor  sit amet, consectetur adipisicing elit. Impedit, corrupti, cupiditate. 
+                    Ipsam, accusantium quisquam, quia vitae laborum enim. Ipsa et quasi nulla quidem, dolore quas quibusdam! 
+                    Voluptates itaque voluptatibus sunt officia perferendis quam inventore quo commodi blanditiis assumenda perspiciatis maiores numquam, 
+                    illo animi consectetur dicta dolorum totam, ipsum aliquam magni.
+                </p>
+                    <button id="bed">VIEW GALLERY</button>
+            </div>
+        </div>
+        <div class="drink1">
+            <img src="photos/drink1.jpg" alt="soda" height="250">
+        </div>
+        <div class="drink2">
+            <img src="photos/drink2.jpg" alt="wine" height="250">
+        </div>
+        <div id="drinks"></div>
+            <h2>Drinks</h2>
+            <h3>We also produce delicious drinks</h3>
+            <p>Lorem ipsum dolor  sit amet, consectetur adipisicing elit. Impedit, corrupti, cupiditate. Ipsam, accusantium quisquam, quia vitae laborum enim. 
+                Ipsa et quasi nulla quidem, dolore quas quibusdam! Voluptates itaque voluptatibus sunt officia perferendis quam inventore quo commodi blanditiis assumenda perspiciatis maiores numquam, 
+                illo animi consectetur dicta dolorum totam, ipsum aliquam magni.
+            </p>
+            <button id="bed">VIEW GALLERY</button>
+        </div>
+            <!--menu section-->
+        <div id="Bg">
+            <div>
+                <nav>
+                    <ul class ="menu">
+                        <li>Fast Food</li>                      
+                        <li>Drinks</li>
+                        <li>Chicken</li>
+                        <li>Rice</li>
+                    </ul>
+                </nav>
+                    <div id ="food">
+                        <img src="photos/chickenBurger.jpg" alt="chicken burger">
+                        <h4>Chicken Burger</h4>
+                        <img src="photos/beefBurger.jpg" alt="beef burger">
+                        <h4>Beef Burger</h4>
+                        <img src="photos/chickenPizza.jpg" alt="chicken pizza">
+                        <h4>Chicken Pizza</h4>
                     </div>
-                </form>
             </div>
         </div>
-
-<!--social media/footer-->
-        <div class="social-media">
-            <div class="footer">
-                <h4>
-                    <img src="photos/logo_white.png" alt="White Logo">MENU
-                </h4>
-                <p>Thats what we are</p>
-                <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
-                <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
-                <i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i>
-                <p id="copyright"> 2021 Menu Restaurant</p>
+        <div class="customers">
+            <div id="happy">
+                <h2>Our Happy Customers</h2>
+                <h5>George Richard</h5>
+                <p>Great food! Menu is awesome, their foods are not only great but also in the right price. 
+                   I'll highly recommend them :)</p>
+                    <img src="photos/p1.png" alt="customer1">
+                    <img src="photos/p2.png" alt="customer2">
+                    <img src="photos/p3.png" alt="customer3">
+            </div>
+            <div class="about">
+                <h2>About Menu</h2>
+                <p>We are menu a little team of 7 members. Ut wisi enim ad minim
+                    veniam, quis nos trudexer ci tation uliamcroper suscipit lob ortis nisl 
+                    ut aliquip ex ea commodo conse quat. Duisau tem vel enumiriure dolor in.
+                </p>
+            </div>
+        </div>
+        <div id="subscriptions">
+            <div id="head">
+                <h3>Get our daily food items delivered to your email</h3>
+            </div>
+                <input type="text" placeholder="enter your email address" id="email">
+                <button type="button" class="butt">Subscribe now</button>
+        </div>
+        <div id="status">
+            <div class="nuts">
+                <img src="photos/logo_white.png" alt="log">
+                <h1>MENU</h1>
+                <h5>Thats What We Are</h5>
+            </div>
+            <div id="boy">
+                <img src="photos/pinterest.png" alt="pinterest">
+                <img src="photos/twitter.png" alt="twitter">
+                <img src="photos/facebook.png" alt="facebook">
+                <h6>2021 Menu Restaurant</h6>
             </div>
         </div>
     </body>
